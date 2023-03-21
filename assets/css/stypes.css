@@ -537,3 +537,34 @@
     }
 }
 /* End Section-8  */
+
+/* Section-9  */
+.section-9{
+    padding: 100px 0px;
+    background-color: #F2F2FE;
+}
+
+.section-9 .title h3{
+    margin-bottom: 0px;
+}
+
+.section-9 .input{
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.section-9 .message{
+    resize: none;
+    height: 150px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.section-9 .buttom{
+    border: none;
+    padding: 10px;
+}
+/* End Section-9  */
