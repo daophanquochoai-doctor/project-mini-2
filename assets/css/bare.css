@@ -24,6 +24,8 @@ html{
 a{
     text-decoration: none;
     color: #14191E;
+    cursor: pointer;
+    text-decoration-thickness: initial;
 }
 
 li{

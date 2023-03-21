@@ -200,7 +200,7 @@
 
 /* Section-4  */
 .section-4{
-    padding-top: 100px 0px;
+    padding: 100px 0px;
 }
 
 .section-4 h3{
@@ -234,3 +234,209 @@
     } 
 }
 /* End Section-4  */
+
+/* title  */
+.title h3{
+    color: #1e1e1e;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.title p{
+    color: #777;
+    padding-bottom: 40px;
+}
+/* End title */
+
+/* Section-5 */
+.section-5{
+    /* padding-top: 100px; */
+    position: relative;
+}
+
+.section-5::before{
+    content: "";
+    background-image: url(../images/bg-section-5.png);
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-5 .inner-wrap{
+    padding: 110px 0px;
+}
+
+.section-5 .inner-wrap h3{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+.section-5 .inner-wrap p{
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.section-5 .mini-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+.section-5 .mini-box::before{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    border-radius: 20px;
+    opacity: 0.15;
+    height: 100%;
+    bottom: -10px;
+    left: 8px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.section-5 .mini-box:hover{
+    margin-top: -10px;
+}
+
+.section-5 .mini-box strong{
+    color: #1e1e1e;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.section-5 .mini-box span{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    letter-spacing: .75px;
+}
+.section-5 a:hover{
+    text-decoration: none;
+}
+.section-5 .mini-box img{
+    margin-bottom: 20px;
+}
+/* End Section-5 */
+
+/* Section-6 */
+.section-6{
+    padding: 110px 0px;
+}
+
+.section-6 .inner-box{
+    background-color: #FFFFFF;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.section-6 .inner-img{
+    padding-bottom: 30px;
+}
+
+.section-6 .inner-box .inner-tag img {
+    border-radius: 50%;
+}
+
+.section-6 .desc{
+    padding-bottom: 30px;
+}
+
+.section-6 .inner-box .inner-content{
+    padding-left: 20px;
+    transition: all .5s ease;
+}
+
+.section-6 .inner-box .inner-content:hover{
+    margin-left: 10px;
+}
+
+.section-6 .inner-box .inner-content .sub-title{
+    color: var(--color-bg-hover);
+}
+/* End Section-6  */
+
+/* Section-7  */
+.section-7{
+    padding: 110px 0px;
+    background-color: #F2F2FE;
+}
+
+.section-7 .inner-box{
+    padding: 30px 10px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.section-7 .inner-box .box-coin{
+    text-align: center;
+    padding-top: 20px;
+    background: #8261ee;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.section-7 .inner-box .box-coin h4{
+    font-size: 2rem;
+}
+
+.section-7 .inner-box .box-coin h4,
+.section-7 .inner-box .box-coin p{
+    color: #FFFFFF;
+}
+
+.section-7 .box2 .box-coin{
+    background-color: var(--color-bg-hover);
+}
+
+.section-7 .inner-box:nth-child(2) .box-coin{
+    background-color: var(--color-bg-hover);
+}
+.section-7 .inner-box .sales,
+.section-7 .inner-box .info{
+    margin-bottom: 20px;
+} 
+.section-7 .inner-box .buttom{
+    background-color: #8261ee;
+}
+
+.section-7 .inner-box .buttom:hover{
+    background-color: var(--color-bg-hover);
+}
+/* End Section-7  */
+
+/* Section-8  */
+.section-8{
+    padding: 110px 0px;
+    background-image: url(../images/circle-dec-section-8.png);
+    width: 100%;
+}
+/* End Section-8  */
