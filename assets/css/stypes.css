@@ -19,34 +19,32 @@
 .header .inner-log{
     cursor: pointer;
 }
-.header .nav{
+
+.header .navbar{
+    text-align: left;
+    padding: 0;
+}
+
+.header .navbar-expand-lg .navbar-collapse{
+    display: inline;
+}
+
+.header .navbar-light .navbar-nav{
     display: flex;
     justify-content: space-between;
-    width: 70%;
 }
 
-@media (max-width:1199.98px)
+.header .navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 0.9rem;
+}
+
+@media (max-width)
 {
-    .header .nav{
+    .header .navbar{
         flex: 1;
-        margin-left: 30px;
     }
 }
-
-/* .header .nav{
-    text-decoration: none;
-} */
-
-.header .nav .nav-item a{
-    color: var(--color-text);
-    cursor: pointer;
-}
-
-.header .nav .nav-item a:hover{
-    color: var(--color-bg-hover);
-    text-decoration: none;
-}
-
 /* End header  */
 
 /* buttom */
@@ -136,6 +134,10 @@
     height: 100%;
 }
 
+.section-2 .inner-wrap .inner-box{
+    margin-bottom: 30px;
+}
+
 .section-2 .inner-wrap .inner-item .img{
     background-color:#8261EE;
     height: 90px;
@@ -154,5 +156,24 @@
 .section-2 .inner-wrap .inner-item h4{
     margin-bottom: 30px;
 }
-
 /* End Section-2 */
+/* <li class="nav-item"> */
+                                  /* <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#About">About</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#Work">Work Process</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Pricing">Pricing Tables</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Blog">Blog Endtries</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Contact">Contact Us</a> */
