@@ -435,8 +435,105 @@
 
 /* Section-8  */
 .section-8{
-    padding: 110px 0px;
-    background-image: url(../images/circle-dec-section-8.png);
+    background-image: url(../images/fun-facts-bg-section-8.png);
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-8 .inner-item{
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.section-8 .decor::after{
+    content: '';
+    position: absolute;
+    background: url(../images/circle-dec-section-8.png) center center no-repeat;
+    width: 70%;
+    height: 32px;
+    top: 52%;
+    left: 70%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+
+.section-8 .decor2::after{
+    content: '';
+    position: absolute;
+    background: url(../images/circle-dec-section-8.png) center center no-repeat;
+    width: 70%;
+    height: 32px;
+    top: 45%;
+    left: 70%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 10;
+}
+
+.section-8 .inner-wrap strong{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 0.25px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    margin-top: 150px;
+}
+
+.section-8 .inner-wrap span{
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    margin-bottom: 120px;
+}
+
+.section-8 .inner:hover{
+    margin-top: -10px;
+}
+
+@media (max-width:991.98px ){
+    .section-8 .decor2::after{
+        display: none;
+    }
+    .section-8 .decor::after{
+        display: none;
+    }
+    .section-8 .inner-wrap span{
+        margin-bottom: 0px;
+    }
+    .section-8 .inner-item3 strong,
+    .section-8 .inner-item4 strong{
+        margin-top: 50px;
+    }
+    .section-8 .inner-item3 span,
+    .section-8 .inner-item4 span{
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width:776.98px ){
+    .section-8 .inner strong{
+        margin-top: 50px;
+    }
+    .section-8 .inner span{
+        margin-bottom: 0px;
+    }
+    .section-8 .inner-item4 span{
+        margin-bottom: 50px;
+    }
 }
 /* End Section-8  */
